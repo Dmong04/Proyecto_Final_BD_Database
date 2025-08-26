@@ -24,7 +24,7 @@ begin try
 		return
 	end
 	declare @limit_participants int
-	select @limit_participants = isnull(count(p.id),0) from reservations as r inner join
+	select @limit_participants = isnull(count(p.id),0) + 1 from reservations as r inner join
 	tour_detail as td on r.id = td.reservation_id inner join passengers
 	as p on td.id = p.tour_detail_id where td.reservation_id = @selected_reservation
 	if @person_count > @limit_participants

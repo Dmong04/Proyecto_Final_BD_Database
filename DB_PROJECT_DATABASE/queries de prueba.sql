@@ -51,10 +51,12 @@ values ('Jetsky', 'Paseo en jetski por la costa', 25)
 
 select * from extra
 
-execute pa_extra_details_reservation_insert 6, 1, 1
+execute pa_extra_details_reservation_insert 12, 1, 1
 
 select * from extra_detail
 
 select * from reservations
 
 select * from tour_detail
+
+select * from passengers
