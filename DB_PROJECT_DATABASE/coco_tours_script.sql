@@ -36,6 +36,7 @@ CREATE TABLE [user] (
     password VARCHAR(150) NOT NULL,
     client_id INT DEFAULT NULL,
     admin_id INT DEFAULT NULL,
+    [role] VARCHAR(10) DEFAULT NULL,
     FOREIGN KEY (client_id) REFERENCES client(id) ON DELETE SET NULL,
     FOREIGN KEY (admin_id) REFERENCES administrator(id) ON DELETE SET NULL
     );
@@ -106,7 +107,6 @@ GO
 -- Table: tour_detail
 CREATE TABLE tour_detail (
     id INT IDENTITY(1,1) PRIMARY KEY,
-    passenger_count INT NOT NULL,
     origin VARCHAR(40) NOT NULL,
     destination VARCHAR(40) NOT NULL,
     tour_id INT NOT NULL,
