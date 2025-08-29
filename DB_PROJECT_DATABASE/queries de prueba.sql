@@ -57,6 +57,6 @@ select * from extra_detail
 
 select * from reservations
 
-select * from tour_detail
+select * from tour
 
 select * from passengers
