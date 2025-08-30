@@ -1,24 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Universidad Nacional\\OneDrive - Universidad Nacional de Costa Rica\\Documentos\\II Ciclo\\Admin Base de datos\\Trabajo\\Trabajo Final\\Repository\\DB_PROJECT_DATABASE\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|C:\\Users\\Universidad Nacional\\OneDrive - Universidad Nacional de Costa Rica\\Documentos\\II Ciclo\\Admin Base de datos\\Trabajo\\Trabajo Final\\Repository\\DB_PROJECT_DATABASE\\queries de prueba.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
-      "RelativeMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|solutionrelative:queries de prueba.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|C:\\Users\\Universidad Nacional\\OneDrive - Universidad Nacional de Costa Rica\\Documentos\\II Ciclo\\Admin Base de datos\\Trabajo\\Trabajo Final\\Repository\\DB_PROJECT_DATABASE\\pa_tour_reservation_update.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
-      "RelativeMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|solutionrelative:pa_tour_reservation_update.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|C:\\Users\\Universidad Nacional\\OneDrive - Universidad Nacional de Costa Rica\\Documentos\\II Ciclo\\Admin Base de datos\\Trabajo\\Trabajo Final\\Repository\\DB_PROJECT_DATABASE\\pa_tour_reservation_delete.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
-      "RelativeMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|solutionrelative:pa_tour_reservation_delete.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|C:\\Users\\Universidad Nacional\\OneDrive - Universidad Nacional de Costa Rica\\Documentos\\II Ciclo\\Admin Base de datos\\Trabajo\\Trabajo Final\\Repository\\DB_PROJECT_DATABASE\\pa_tour_reservation_insert.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
-      "RelativeMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|solutionrelative:pa_tour_reservation_insert.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Material de la uni\\III Nivel 2025\\II Cliclo\\Administraci\u00F3n de bases de datos\\Proyecto_Final_BD\\Proyecto_Final_BD_database\\DB_PROJECT_DATABASE\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,55 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "queries de prueba.sql - localhost.coco_tours_db (Nahomy\\Universidad Nacional (83))",
-              "DocumentMoniker": "C:\\Users\\Universidad Nacional\\OneDrive - Universidad Nacional de Costa Rica\\Documentos\\II Ciclo\\Admin Base de datos\\Trabajo\\Trabajo Final\\Repository\\DB_PROJECT_DATABASE\\queries de prueba.sql",
-              "RelativeDocumentMoniker": "queries de prueba.sql",
-              "ToolTip": "queries de prueba.sql - localhost.coco_tours_db (Nahomy\\Universidad Nacional (83))",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-08-28T01:22:56.14Z",
-              "EditorCaption": " - localhost.coco_tours_db (Nahomy\\Universidad Nacional (83))"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "pa_tour_reservation_insert.sql - localhost.coco_tours_db (Nahomy\\Universidad Nacional (74))",
-              "DocumentMoniker": "C:\\Users\\Universidad Nacional\\OneDrive - Universidad Nacional de Costa Rica\\Documentos\\II Ciclo\\Admin Base de datos\\Trabajo\\Trabajo Final\\Repository\\DB_PROJECT_DATABASE\\pa_tour_reservation_insert.sql",
-              "RelativeDocumentMoniker": "pa_tour_reservation_insert.sql",
-              "ToolTip": "pa_tour_reservation_insert.sql - localhost.coco_tours_db (Nahomy\\Universidad Nacional (74))",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-08-28T01:22:06.401Z",
-              "EditorCaption": " - localhost.coco_tours_db (Nahomy\\Universidad Nacional (74))"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "pa_tour_reservation_update.sql - localhost.coco_tours_db (Nahomy\\Universidad Nacional (73))",
-              "DocumentMoniker": "C:\\Users\\Universidad Nacional\\OneDrive - Universidad Nacional de Costa Rica\\Documentos\\II Ciclo\\Admin Base de datos\\Trabajo\\Trabajo Final\\Repository\\DB_PROJECT_DATABASE\\pa_tour_reservation_update.sql",
-              "RelativeDocumentMoniker": "pa_tour_reservation_update.sql",
-              "ToolTip": "pa_tour_reservation_update.sql - localhost.coco_tours_db (Nahomy\\Universidad Nacional (73))",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-08-28T01:21:51.899Z",
-              "EditorCaption": " - localhost.coco_tours_db (Nahomy\\Universidad Nacional (73))"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "pa_tour_reservation_delete.sql - localhost.coco_tours_db (Nahomy\\Universidad Nacional (57))",
-              "DocumentMoniker": "C:\\Users\\Universidad Nacional\\OneDrive - Universidad Nacional de Costa Rica\\Documentos\\II Ciclo\\Admin Base de datos\\Trabajo\\Trabajo Final\\Repository\\DB_PROJECT_DATABASE\\pa_tour_reservation_delete.sql",
-              "RelativeDocumentMoniker": "pa_tour_reservation_delete.sql",
-              "ToolTip": "pa_tour_reservation_delete.sql - localhost.coco_tours_db (Nahomy\\Universidad Nacional (57))",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-08-28T01:21:24.65Z",
-              "EditorCaption": " - localhost.coco_tours_db (Nahomy\\Universidad Nacional (57))"
             }
           ]
         }
