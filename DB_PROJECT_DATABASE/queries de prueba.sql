@@ -10,6 +10,10 @@ values ('dmong@gmail.com', 'dmong', '12345678', NULL, 1)
 
 select * from [user]
 
+delete from [user] where id = 4
+
+select * from client
+
 select * from administrator
 
 delete from [user] where id = 2
@@ -57,6 +61,6 @@ select * from extra_detail
 
 select * from reservations
 
-select * from tour_detail
+select * from tour
 
 select * from passengers

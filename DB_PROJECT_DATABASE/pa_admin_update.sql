@@ -2,7 +2,7 @@ USE coco_tours_db
 GO
 
 CREATE PROCEDURE pa_admin_update (
-    @admin_id INT,
+    @user_id INT,
     @new_name VARCHAR(50),
     @new_email VARCHAR(70),
     @new_username VARCHAR(30),
@@ -10,8 +10,10 @@ CREATE PROCEDURE pa_admin_update (
 ) AS
 BEGIN
 BEGIN TRY
-
- IF NOT EXISTS (SELECT 1 FROM administrator WHERE id = @admin_id)
+DECLARE @admin_id INT
+SELECT @admin_id = a.id FROM administrator AS a INNER JOIN [user] AS u ON a.id = u.admin_id
+WHERE u.id = @user_id
+ IF NOT EXISTS (SELECT 1 FROM [user] WHERE id = @user_id)
  BEGIN
   RAISERROR('El administrador no existe', 16, 1)
   RETURN
@@ -75,7 +77,8 @@ BEGIN TRY
 
 END TRY
 BEGIN CATCH
-    RAISERROR('Hubo un error al actualizar administrador', 16, 1)
+    DECLARE @ErrorMessage NVARCHAR(4000) = ERROR_MESSAGE()
+    RAISERROR(@ErrorMessage, 16, 1)
     RETURN
 END CATCH
 END
