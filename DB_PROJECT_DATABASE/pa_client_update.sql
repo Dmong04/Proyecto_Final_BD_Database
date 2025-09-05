@@ -2,7 +2,7 @@ USE coco_tours_db
 GO
 
 CREATE PROCEDURE pa_client_update (
-    @client_id INT,
+    @user_id INT,
     @new_name VARCHAR(50) = NULL,
     @new_phone VARCHAR(20) = NULL,
     @new_email VARCHAR(70) = NULL,
@@ -11,15 +11,16 @@ CREATE PROCEDURE pa_client_update (
 ) AS
 BEGIN
 BEGIN TRY
-    -- Verification
+    DECLARE @client_id INT
+    SELECT @client_id = c.id FROM client AS c INNER JOIN [user] AS u ON C.id = u.client_id
+    WHERE u.id = @user_id
 
-    IF NOT EXISTS (SELECT 1 FROM client WHERE id = @client_id)
+    IF NOT EXISTS (SELECT 1 FROM [user] AS u INNER JOIN client AS c ON u.client_id = c.id 
+        WHERE u.id = @user_id)
     BEGIN
         RAISERROR('El cliente no existe', 16, 1)
         RETURN
     END
-
-    --
 
     IF LTRIM(RTRIM(@new_name)) = ''
     BEGIN
@@ -108,7 +109,8 @@ BEGIN TRY
 
 END TRY
 BEGIN CATCH
-    RAISERROR('Hubo un error al actualizar cliente', 16, 1)
+    DECLARE @ErrorMessage NVARCHAR(4000) = ERROR_MESSAGE()
+    RAISERROR(@ErrorMessage, 16, 1)
     RETURN
 END CATCH
 END
