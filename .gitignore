@@ -1,0 +1,24 @@
+# ============================
+# .gitignore para proyectos SQL Server
+# ============================
+
+# Archivos de bases de datos locales (no deben versionarse)
+*.mdf
+*.ldf
+*.ndf
+
+# Backups y exportaciones
+*.bak
+*.trn
+*.dacpac
+*.bacpac
+
+# Archivos de usuario y temporales
+*.user
+*.suo
+*.cache
+Thumbs.db
+Desktop.ini
+
+# Carpetas de logs locales
+[Ll]og/
