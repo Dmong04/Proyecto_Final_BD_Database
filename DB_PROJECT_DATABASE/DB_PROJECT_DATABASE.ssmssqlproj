@@ -3,7 +3,22 @@
   <Items>
     <LogicalFolder Name="Conexiones" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="DESKTOP-1J8JCLT\LOCALHOST:DESKTOP-1J8JCLT\Admin">
+        <ConnectionNode Name="ANTHONY:root_user">
+          <Created>2025-09-11T12:44:48.0398801-06:00</Created>
+          <Type>SQL</Type>
+          <Server>ANTHONY</Server>
+          <UserName>root_user</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>True</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>True</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Consulta</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="DESKTOP-1J8JCLT\LOCALHOST:ANTHONY\juan9">
           <Created>2025-08-05T15:11:04.822748-06:00</Created>
           <Type>SQL</Type>
           <Server>DESKTOP-1J8JCLT\LOCALHOST</Server>
@@ -184,9 +199,9 @@
           <FullPath>pa_tour_reservation_update.sql</FullPath>
         </FileNode>
         <FileNode Name="pa_tour_update.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1J8JCLT\LOCALHOST:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-1J8JCLT\LOCALHOST</AssociatedConnSrvName>
-          <AssociatedConnUserName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ANTHONY:False:root_user</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ANTHONY</AssociatedConnSrvName>
+          <AssociatedConnUserName>root_user</AssociatedConnUserName>
           <FullPath>pa_tour_update.sql</FullPath>
         </FileNode>
         <FileNode Name="queries de prueba.sql">
