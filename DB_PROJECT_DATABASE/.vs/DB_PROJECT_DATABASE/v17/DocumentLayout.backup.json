@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Material de la uni\\III Nivel 2025\\II Cliclo\\Administraci\u00F3n de bases de datos\\Proyecto_Final_BD\\Proyecto_Final_BD_database\\DB_PROJECT_DATABASE\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Material de la uni\\III Nivel 2025\\II Cliclo\\Administraci\u00F3n de bases de datos\\Proyecto_Final_BD\\Proyecto_Final_BD_Database\\DB_PROJECT_DATABASE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|C:\\Users\\Admin\\Desktop\\Material de la uni\\III Nivel 2025\\II Cliclo\\Administraci\u00F3n de bases de datos\\Proyecto_Final_BD\\Proyecto_Final_BD_database\\DB_PROJECT_DATABASE\\pa_tour_update.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
-      "RelativeMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|solutionrelative:pa_tour_update.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+      "AbsoluteMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|C:\\Users\\Admin\\Desktop\\Material de la uni\\III Nivel 2025\\II Cliclo\\Administraci\u00F3n de bases de datos\\Proyecto_Final_BD\\Proyecto_Final_BD_database\\DB_PROJECT_DATABASE\\coco_tours_script.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|solutionrelative:coco_tours_script.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,13 +23,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "pa_tour_update.sql - DESKTOP-1J8JCLT\\LOCALHOST.coco_tours_db (DESKTOP-1J8JCLT\\Admin (60))",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Material de la uni\\III Nivel 2025\\II Cliclo\\Administraci\u00F3n de bases de datos\\Proyecto_Final_BD\\Proyecto_Final_BD_database\\DB_PROJECT_DATABASE\\pa_tour_update.sql",
-              "RelativeDocumentMoniker": "pa_tour_update.sql",
-              "ToolTip": "pa_tour_update.sql - DESKTOP-1J8JCLT\\LOCALHOST.coco_tours_db (DESKTOP-1J8JCLT\\Admin (60))",
+              "Title": "coco_tours_script.sql - DESKTOP-1J8JCLT\\LOCALHOST.coco_tours_db (DESKTOP-1J8JCLT\\Admin (62))",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Material de la uni\\III Nivel 2025\\II Cliclo\\Administraci\u00F3n de bases de datos\\Proyecto_Final_BD\\Proyecto_Final_BD_Database\\DB_PROJECT_DATABASE\\coco_tours_script.sql",
+              "RelativeDocumentMoniker": "coco_tours_script.sql",
+              "ToolTip": "coco_tours_script.sql - DESKTOP-1J8JCLT\\LOCALHOST.coco_tours_db (DESKTOP-1J8JCLT\\Admin (62))",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-09-09T02:51:32.665Z",
-              "EditorCaption": " - DESKTOP-1J8JCLT\\LOCALHOST.coco_tours_db (DESKTOP-1J8JCLT\\Admin (60))"
+              "WhenOpened": "2025-09-12T15:05:03.401Z",
+              "EditorCaption": " - DESKTOP-1J8JCLT\\LOCALHOST.coco_tours_db (DESKTOP-1J8JCLT\\Admin (62))"
             }
           ]
         }
