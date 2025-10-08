@@ -1,10 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Material de la uni\\III Nivel 2025\\II Cliclo\\Administraci\u00F3n de bases de datos\\Proyecto_Final_BD\\Proyecto_Final_BD_database\\DB_PROJECT_DATABASE\\",
+  "WorkspaceRootPath": "C:\\Users\\juan9\\Documents\\GitHub\\Proyecto_Final_BD_Database\\DB_PROJECT_DATABASE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|C:\\Users\\Admin\\Desktop\\Material de la uni\\III Nivel 2025\\II Cliclo\\Administraci\u00F3n de bases de datos\\Proyecto_Final_BD\\Proyecto_Final_BD_database\\DB_PROJECT_DATABASE\\pa_tour_update.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
-      "RelativeMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|solutionrelative:pa_tour_update.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+      "AbsoluteMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|C:\\Users\\juan9\\Documents\\GitHub\\Proyecto_Final_BD_Database\\DB_PROJECT_DATABASE\\pa_passenger_add.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|solutionrelative:pa_passenger_add.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|C:\\Users\\juan9\\Documents\\GitHub\\Proyecto_Final_BD_Database\\DB_PROJECT_DATABASE\\pa_reservation_add.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|solutionrelative:pa_reservation_add.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|C:\\Users\\juan9\\Documents\\GitHub\\Proyecto_Final_BD_Database\\DB_PROJECT_DATABASE\\pa_extra_reservation_add.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|solutionrelative:pa_extra_reservation_add.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|C:\\Users\\juan9\\Documents\\GitHub\\Proyecto_Final_BD_Database\\DB_PROJECT_DATABASE\\pa_tour_reservation_insert.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|solutionrelative:pa_tour_reservation_insert.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|C:\\Users\\juan9\\Documents\\GitHub\\Proyecto_Final_BD_Database\\DB_PROJECT_DATABASE\\pa_tour_add.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|solutionrelative:pa_tour_add.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|C:\\Users\\juan9\\Documents\\GitHub\\Proyecto_Final_BD_Database\\DB_PROJECT_DATABASE\\pa_extra_add.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|solutionrelative:pa_extra_add.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|C:\\Users\\juan9\\Documents\\GitHub\\Proyecto_Final_BD_Database\\DB_PROJECT_DATABASE\\trg_extra_detail.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|solutionrelative:trg_extra_detail.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|C:\\Users\\juan9\\Documents\\GitHub\\Proyecto_Final_BD_Database\\DB_PROJECT_DATABASE\\trg_tour_detail.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|solutionrelative:trg_tour_detail.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|C:\\Users\\juan9\\Documents\\GitHub\\Proyecto_Final_BD_Database\\DB_PROJECT_DATABASE\\pa_admin_insert.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|solutionrelative:pa_admin_insert.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|C:\\Users\\juan9\\Documents\\GitHub\\Proyecto_Final_BD_Database\\DB_PROJECT_DATABASE\\trg_user.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|solutionrelative:trg_user.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,13 +59,112 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "pa_tour_update.sql - DESKTOP-1J8JCLT\\LOCALHOST.coco_tours_db (DESKTOP-1J8JCLT\\Admin (60))",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Material de la uni\\III Nivel 2025\\II Cliclo\\Administraci\u00F3n de bases de datos\\Proyecto_Final_BD\\Proyecto_Final_BD_database\\DB_PROJECT_DATABASE\\pa_tour_update.sql",
-              "RelativeDocumentMoniker": "pa_tour_update.sql",
-              "ToolTip": "pa_tour_update.sql - DESKTOP-1J8JCLT\\LOCALHOST.coco_tours_db (DESKTOP-1J8JCLT\\Admin (60))",
+              "Title": "pa_passenger_add.sql - no conectado",
+              "DocumentMoniker": "C:\\Users\\juan9\\Documents\\GitHub\\Proyecto_Final_BD_Database\\DB_PROJECT_DATABASE\\pa_passenger_add.sql",
+              "RelativeDocumentMoniker": "pa_passenger_add.sql",
+              "ToolTip": "pa_passenger_add.sql - no conectado",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-09-09T02:51:32.665Z",
-              "EditorCaption": " - DESKTOP-1J8JCLT\\LOCALHOST.coco_tours_db (DESKTOP-1J8JCLT\\Admin (60))"
+              "WhenOpened": "2025-10-05T04:33:03.705Z",
+              "EditorCaption": " - no conectado"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "pa_tour_add.sql - no conectado",
+              "DocumentMoniker": "C:\\Users\\juan9\\Documents\\GitHub\\Proyecto_Final_BD_Database\\DB_PROJECT_DATABASE\\pa_tour_add.sql",
+              "RelativeDocumentMoniker": "pa_tour_add.sql",
+              "ToolTip": "pa_tour_add.sql - no conectado",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-10-04T23:44:35.039Z",
+              "EditorCaption": " - no conectado"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "pa_extra_add.sql - no conectado",
+              "DocumentMoniker": "C:\\Users\\juan9\\Documents\\GitHub\\Proyecto_Final_BD_Database\\DB_PROJECT_DATABASE\\pa_extra_add.sql",
+              "RelativeDocumentMoniker": "pa_extra_add.sql",
+              "ToolTip": "pa_extra_add.sql - no conectado",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-10-04T23:38:15.035Z",
+              "EditorCaption": " - no conectado"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "pa_reservation_add.sql - no conectado",
+              "DocumentMoniker": "C:\\Users\\juan9\\Documents\\GitHub\\Proyecto_Final_BD_Database\\DB_PROJECT_DATABASE\\pa_reservation_add.sql",
+              "RelativeDocumentMoniker": "pa_reservation_add.sql",
+              "ToolTip": "pa_reservation_add.sql - no conectado",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-10-04T22:59:29.046Z",
+              "EditorCaption": " - no conectado"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "pa_tour_reservation_insert.sql - no conectado",
+              "DocumentMoniker": "C:\\Users\\juan9\\Documents\\GitHub\\Proyecto_Final_BD_Database\\DB_PROJECT_DATABASE\\pa_tour_reservation_insert.sql",
+              "RelativeDocumentMoniker": "pa_tour_reservation_insert.sql",
+              "ToolTip": "pa_tour_reservation_insert.sql - no conectado",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-10-04T22:56:30.362Z",
+              "EditorCaption": " - no conectado"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "pa_extra_reservation_add.sql - no conectado",
+              "DocumentMoniker": "C:\\Users\\juan9\\Documents\\GitHub\\Proyecto_Final_BD_Database\\DB_PROJECT_DATABASE\\pa_extra_reservation_add.sql",
+              "RelativeDocumentMoniker": "pa_extra_reservation_add.sql",
+              "ToolTip": "pa_extra_reservation_add.sql - no conectado",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-10-04T22:55:30.994Z",
+              "EditorCaption": " - no conectado"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "pa_admin_insert.sql - no conectado",
+              "DocumentMoniker": "C:\\Users\\juan9\\Documents\\GitHub\\Proyecto_Final_BD_Database\\DB_PROJECT_DATABASE\\pa_admin_insert.sql",
+              "RelativeDocumentMoniker": "pa_admin_insert.sql",
+              "ToolTip": "pa_admin_insert.sql - no conectado",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-10-04T21:51:46.522Z",
+              "EditorCaption": " - no conectado"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "trg_tour_detail.sql - no conectado",
+              "DocumentMoniker": "C:\\Users\\juan9\\Documents\\GitHub\\Proyecto_Final_BD_Database\\DB_PROJECT_DATABASE\\trg_tour_detail.sql",
+              "RelativeDocumentMoniker": "trg_tour_detail.sql",
+              "ToolTip": "trg_tour_detail.sql - no conectado",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-10-04T21:50:29.199Z",
+              "EditorCaption": " - no conectado"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "trg_user.sql - no conectado",
+              "DocumentMoniker": "C:\\Users\\juan9\\Documents\\GitHub\\Proyecto_Final_BD_Database\\DB_PROJECT_DATABASE\\trg_user.sql",
+              "RelativeDocumentMoniker": "trg_user.sql",
+              "ToolTip": "trg_user.sql - no conectado",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-10-04T21:49:50.863Z",
+              "EditorCaption": " - no conectado"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "trg_extra_detail.sql - no conectado",
+              "DocumentMoniker": "C:\\Users\\juan9\\Documents\\GitHub\\Proyecto_Final_BD_Database\\DB_PROJECT_DATABASE\\trg_extra_detail.sql",
+              "RelativeDocumentMoniker": "trg_extra_detail.sql",
+              "ToolTip": "trg_extra_detail.sql - no conectado",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-10-04T21:27:13.444Z",
+              "EditorCaption": " - no conectado"
             }
           ]
         }
