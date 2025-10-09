@@ -1,0 +1,12 @@
+CREATE TRIGGER trg_auditing_reservations
+ON reservations
+AFTER INSERT, UPDATE, DELETE
+AS
+BEGIN
+ 
+ DECLARE @user VARCHAR(100) = SUSER_SNAME();
+
+ INSERT INTO 
+
+END;
+GO
