@@ -1,3 +1,6 @@
+USE coco_tours_db
+GO
+
 CREATE PROCEDURE pa_supplier_delete (
     @supplier_id INT
 ) AS

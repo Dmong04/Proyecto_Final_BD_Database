@@ -3,31 +3,16 @@
   <Items>
     <LogicalFolder Name="Conexiones" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="ANTHONY:root_user">
-          <Created>2025-09-11T12:44:48.0398801-06:00</Created>
+        <ConnectionNode Name="localhost:Nahomy\Universidad Nacional">
+          <Created>2025-10-08T20:25:59.6129159-06:00</Created>
           <Type>SQL</Type>
-          <Server>ANTHONY</Server>
-          <UserName>root_user</UserName>
-          <Authentication>SQL</Authentication>
-          <InitialDB />
-          <LoginTimeout>30</LoginTimeout>
-          <TrustServerCertificate>True</TrustServerCertificate>
-          <HostNameInServerCertificate />
-          <EncryptionOption>True</EncryptionOption>
-          <ExecutionTimeout>0</ExecutionTimeout>
-          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
-          <ApplicationName>Microsoft SQL Server Management Studio - Consulta</ApplicationName>
-        </ConnectionNode>
-        <ConnectionNode Name="DESKTOP-1J8JCLT\LOCALHOST:ANTHONY\juan9">
-          <Created>2025-08-05T15:11:04.822748-06:00</Created>
-          <Type>SQL</Type>
-          <Server>DESKTOP-1J8JCLT\LOCALHOST</Server>
+          <Server>localhost</Server>
           <UserName />
           <Authentication>Autenticación de Windows</Authentication>
-          <InitialDB>coco_tours_db</InitialDB>
-          <LoginTimeout>30</LoginTimeout>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
           <TrustServerCertificate>True</TrustServerCertificate>
-          <EncryptionOption>False</EncryptionOption>
+          <EncryptionOption>True</EncryptionOption>
           <ExecutionTimeout>0</ExecutionTimeout>
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Consulta</ApplicationName>
@@ -37,196 +22,256 @@
     <LogicalFolder Name="Consultas" Type="0" Sorted="true">
       <Items>
         <FileNode Name="coco_tours_script.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>coco_tours_script.sql</FullPath>
         </FileNode>
         <FileNode Name="pa_admin_delete.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1J8JCLT\LOCALHOST:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-1J8JCLT\LOCALHOST</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>pa_admin_delete.sql</FullPath>
         </FileNode>
         <FileNode Name="pa_admin_insert.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1J8JCLT\LOCALHOST:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-1J8JCLT\LOCALHOST</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>pa_admin_insert.sql</FullPath>
         </FileNode>
         <FileNode Name="pa_admin_update.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1J8JCLT\LOCALHOST:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-1J8JCLT\LOCALHOST</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>pa_admin_update.sql</FullPath>
         </FileNode>
+        <FileNode Name="pa_backup_db.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>pa_backup_db.sql</FullPath>
+        </FileNode>
         <FileNode Name="pa_client_add.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1J8JCLT\LOCALHOST:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-1J8JCLT\LOCALHOST</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>pa_client_add.sql</FullPath>
         </FileNode>
         <FileNode Name="pa_client_delete.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1J8JCLT\LOCALHOST:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-1J8JCLT\LOCALHOST</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>pa_client_delete.sql</FullPath>
         </FileNode>
         <FileNode Name="pa_client_update.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1J8JCLT\LOCALHOST:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-1J8JCLT\LOCALHOST</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>pa_client_update.sql</FullPath>
         </FileNode>
         <FileNode Name="pa_extra_add.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1J8JCLT\LOCALHOST:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-1J8JCLT\LOCALHOST</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>pa_extra_add.sql</FullPath>
         </FileNode>
         <FileNode Name="pa_extra_delete.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1J8JCLT\LOCALHOST:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-1J8JCLT\LOCALHOST</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>pa_extra_delete.sql</FullPath>
         </FileNode>
         <FileNode Name="pa_extra_reservation_add.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>pa_extra_reservation_add.sql</FullPath>
         </FileNode>
         <FileNode Name="pa_extra_reservation_delete.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>pa_extra_reservation_delete.sql</FullPath>
         </FileNode>
         <FileNode Name="pa_extra_reservation_update.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>pa_extra_reservation_update.sql</FullPath>
         </FileNode>
         <FileNode Name="pa_extra_update.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>pa_extra_update.sql</FullPath>
         </FileNode>
         <FileNode Name="pa_passenger_add.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>pa_passenger_add.sql</FullPath>
         </FileNode>
         <FileNode Name="pa_passenger_delete.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>pa_passenger_delete.sql</FullPath>
         </FileNode>
         <FileNode Name="pa_passenger_update.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>pa_passenger_update.sql</FullPath>
         </FileNode>
         <FileNode Name="pa_reservation_add.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>pa_reservation_add.sql</FullPath>
         </FileNode>
         <FileNode Name="pa_reservation_delete.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>pa_reservation_delete.sql</FullPath>
         </FileNode>
         <FileNode Name="pa_reservation_update.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>pa_reservation_update.sql</FullPath>
         </FileNode>
         <FileNode Name="pa_supplier_add.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1J8JCLT\LOCALHOST:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-1J8JCLT\LOCALHOST</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>pa_supplier_add.sql</FullPath>
         </FileNode>
         <FileNode Name="pa_supplier_delete.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1J8JCLT\LOCALHOST:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-1J8JCLT\LOCALHOST</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>pa_supplier_delete.sql</FullPath>
         </FileNode>
         <FileNode Name="pa_supplier_update.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1J8JCLT\LOCALHOST:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-1J8JCLT\LOCALHOST</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>pa_supplier_update.sql</FullPath>
         </FileNode>
         <FileNode Name="pa_tour_add.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1J8JCLT\LOCALHOST:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-1J8JCLT\LOCALHOST</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>pa_tour_add.sql</FullPath>
         </FileNode>
         <FileNode Name="pa_tour_delete.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1J8JCLT\LOCALHOST:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-1J8JCLT\LOCALHOST</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>pa_tour_delete.sql</FullPath>
         </FileNode>
         <FileNode Name="pa_tour_reservation_delete.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1J8JCLT\LOCALHOST:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-1J8JCLT\LOCALHOST</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>pa_tour_reservation_delete.sql</FullPath>
         </FileNode>
         <FileNode Name="pa_tour_reservation_insert.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1J8JCLT\LOCALHOST:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-1J8JCLT\LOCALHOST</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>pa_tour_reservation_insert.sql</FullPath>
         </FileNode>
         <FileNode Name="pa_tour_reservation_update.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>pa_tour_reservation_update.sql</FullPath>
         </FileNode>
         <FileNode Name="pa_tour_update.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ANTHONY:False:root_user</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>ANTHONY</AssociatedConnSrvName>
-          <AssociatedConnUserName>root_user</AssociatedConnUserName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
           <FullPath>pa_tour_update.sql</FullPath>
         </FileNode>
         <FileNode Name="queries de prueba.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1J8JCLT\LOCALHOST:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-1J8JCLT\LOCALHOST</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>queries de prueba.sql</FullPath>
         </FileNode>
+        <FileNode Name="trg_audit_admin.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>trg_audit_admin.sql</FullPath>
+        </FileNode>
+        <FileNode Name="trg_audit_client.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>trg_audit_client.sql</FullPath>
+        </FileNode>
+        <FileNode Name="trg_audit_extra_detail.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>trg_audit_extra_detail.sql</FullPath>
+        </FileNode>
+        <FileNode Name="trg_audit_reservation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>trg_audit_reservation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="trg_audit_tour_detail.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>trg_audit_tour_detail.sql</FullPath>
+        </FileNode>
+        <FileNode Name="trg_audit_user.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>trg_audit_user.sql</FullPath>
+        </FileNode>
         <FileNode Name="trg_extra_detail.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1J8JCLT\LOCALHOST:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-1J8JCLT\LOCALHOST</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>trg_extra_detail.sql</FullPath>
         </FileNode>
         <FileNode Name="trg_tour_detail.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1J8JCLT\LOCALHOST:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-1J8JCLT\LOCALHOST</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>trg_tour_detail.sql</FullPath>
         </FileNode>
         <FileNode Name="trg_user.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1J8JCLT\LOCALHOST:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-1J8JCLT\LOCALHOST</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>trg_user.sql</FullPath>
+        </FileNode>
+        <FileNode Name="v_moth_income.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>v_moth_income.sql</FullPath>
+        </FileNode>
+        <FileNode Name="v_reservation_upcoming.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>v_reservation_upcoming.sql</FullPath>
+        </FileNode>
+        <FileNode Name="v_tours_popularity.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>v_tours_popularity.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

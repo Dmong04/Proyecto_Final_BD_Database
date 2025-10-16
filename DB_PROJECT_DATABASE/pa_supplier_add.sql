@@ -1,3 +1,7 @@
+USE coco_tours_db
+GO
+
+
 CREATE PROCEDURE pa_supplier_insert (
     @name VARCHAR(50),
     @description VARCHAR(150),

@@ -128,3 +128,31 @@ CREATE TABLE passengers (
         ON DELETE CASCADE ON UPDATE CASCADE
 );
 GO
+
+-- Table: users audting
+CREATE TABLE auditing_users_management(
+ id INT IDENTITY(1,1) PRIMARY KEY,
+ table_name VARCHAR(30),
+ type_action VARCHAR(15),
+ record_id INT,
+ username VARCHAR(70) NULL,
+ changed_by VARCHAR(70) NULL,
+ change_date DATETIME DEFAULT GETDATE(),
+ old_data NVARCHAR(MAX) NULL,
+ new_data NVARCHAR(MAX) NULL
+);
+GO
+
+-- Table: operation auditing
+CREATE TABLE auditing_operation_management(
+  id INT IDENTITY(1,1) PRIMARY KEY,
+ table_name VARCHAR(30),
+ type_action VARCHAR(15),
+ record_id INT,
+ username VARCHAR(70) NULL,
+ changed_by VARCHAR(70) NULL,
+ change_date DATETIME DEFAULT GETDATE(),
+ old_data NVARCHAR(MAX) NULL,
+ new_data NVARCHAR(MAX) NULL
+);
+GO
