@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Universidad Nacional\\OneDrive - Universidad Nacional de Costa Rica\\Documentos\\II Ciclo\\Admin Base de datos\\Trabajo\\Proyecto_Final_BD_Database\\DB_PROJECT_DATABASE\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|C:\\Users\\Universidad Nacional\\OneDrive - Universidad Nacional de Costa Rica\\Documentos\\II Ciclo\\Admin Base de datos\\Trabajo\\Proyecto_Final_BD_Database\\DB_PROJECT_DATABASE\\trg_reservation_actions.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
-      "RelativeMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|solutionrelative:trg_reservation_actions.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|C:\\Users\\Universidad Nacional\\OneDrive - Universidad Nacional de Costa Rica\\Documentos\\II Ciclo\\Admin Base de datos\\Trabajo\\Proyecto_Final_BD_Database\\DB_PROJECT_DATABASE\\trg_extra_actions.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
-      "RelativeMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|solutionrelative:trg_extra_actions.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|C:\\Users\\Universidad Nacional\\OneDrive - Universidad Nacional de Costa Rica\\Documentos\\II Ciclo\\Admin Base de datos\\Trabajo\\Proyecto_Final_BD_Database\\DB_PROJECT_DATABASE\\trg_tour_actions.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
-      "RelativeMoniker": "D:0:0:{EC231600-ACE5-CC1A-8FC2-1145FCF32354}|DB_PROJECT_DATABASE.ssmssqlproj|solutionrelative:trg_tour_actions.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,44 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "trg_reservation_actions.sql - coco_tours_db (Nahomy\\Universidad Nacional (76))",
-              "DocumentMoniker": "C:\\Users\\Universidad Nacional\\OneDrive - Universidad Nacional de Costa Rica\\Documentos\\II Ciclo\\Admin Base de datos\\Trabajo\\Proyecto_Final_BD_Database\\DB_PROJECT_DATABASE\\trg_reservation_actions.sql",
-              "RelativeDocumentMoniker": "trg_reservation_actions.sql",
-              "ToolTip": "trg_reservation_actions.sql - coco_tours_db (Nahomy\\Universidad Nacional (76))",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-10-09T03:26:56.863Z",
-              "EditorCaption": " - coco_tours_db (Nahomy\\Universidad Nacional (76))"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "trg_extra_actions.sql - master (Nahomy\\Universidad Nacional (77))",
-              "DocumentMoniker": "C:\\Users\\Universidad Nacional\\OneDrive - Universidad Nacional de Costa Rica\\Documentos\\II Ciclo\\Admin Base de datos\\Trabajo\\Proyecto_Final_BD_Database\\DB_PROJECT_DATABASE\\trg_extra_actions.sql",
-              "RelativeDocumentMoniker": "trg_extra_actions.sql",
-              "ToolTip": "trg_extra_actions.sql - master (Nahomy\\Universidad Nacional (77))",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-10-09T03:27:23.266Z",
-              "EditorCaption": " - master (Nahomy\\Universidad Nacional (77))"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "trg_tour_actions.sql - master (Nahomy\\Universidad Nacional (69))",
-              "DocumentMoniker": "C:\\Users\\Universidad Nacional\\OneDrive - Universidad Nacional de Costa Rica\\Documentos\\II Ciclo\\Admin Base de datos\\Trabajo\\Proyecto_Final_BD_Database\\DB_PROJECT_DATABASE\\trg_tour_actions.sql",
-              "RelativeDocumentMoniker": "trg_tour_actions.sql",
-              "ToolTip": "trg_tour_actions.sql - master (Nahomy\\Universidad Nacional (69))",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-10-09T03:25:31.383Z",
-              "EditorCaption": " - master (Nahomy\\Universidad Nacional (69))"
             }
           ]
         }

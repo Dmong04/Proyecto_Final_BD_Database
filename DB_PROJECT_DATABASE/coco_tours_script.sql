@@ -12,18 +12,6 @@ CREATE TABLE client (
 );
 GO
 
---Table: auditing 
---generica 
-CREATE TABLE auditing (
-   id_auditing  INT IDENTITY(1,1) PRIMARY KEY,
-   table_affected VARCHAR(50),
-   action_taken VARCHAR(10),
-   id_registration VARCHAR(50),
-   user_ VARCHAR(100),
-   date_ DATETIME DEFAULT GETDATE()
-);
-GO
-
 -- Table: client_phones
 CREATE TABLE client_phones (
     id INT IDENTITY(1,1) PRIMARY KEY,
