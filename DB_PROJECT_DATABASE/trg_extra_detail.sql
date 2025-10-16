@@ -1,3 +1,6 @@
+USE coco_tours_db
+GO
+
 CREATE OR ALTER TRIGGER trg_extra_detail_update
 ON extra_detail
 AFTER INSERT, UPDATE, DELETE
