@@ -1,3 +1,6 @@
+USE coco_tours_db
+GO
+
 CREATE TRIGGER trg_set_user_role
 ON [user]
 AFTER INSERT

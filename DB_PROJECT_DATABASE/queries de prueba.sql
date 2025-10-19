@@ -29,7 +29,7 @@ where name = 'coco_tours_db'
 
 use coco_tours_db
 go
-execute pa_reservation_insert '2025-09-11', '10:30:00', 'playita', 1
+execute pa_reservation_insert '2026-07-11', '10:30:00', 'playita', 1
 
 select * from tour where id = 1
 

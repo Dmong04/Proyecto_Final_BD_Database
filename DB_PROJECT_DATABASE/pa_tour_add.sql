@@ -1,3 +1,6 @@
+USE coco_tours_db
+GO
+
 CREATE PROCEDURE pa_tour_insert (
     @type VARCHAR(50),
     @description VARCHAR(150),

@@ -1,3 +1,6 @@
+USE coco_tours_db
+GO
+
 CREATE PROCEDURE pa_tour_update (
     @tour_id INT,
     @new_type VARCHAR(50) = NULL,
